@@ -8,6 +8,19 @@
 
 <body>
   <h1><a href="index.html">WEB</a></h1>
+
+  <input type="button" value="night" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day'
+  } else {
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value = 'night'
+  }
+  ">
 <ol>
   <li><a href="1.html"> HTML</a></li>
   <li><a href="2.html"> CSS</a></li>
@@ -16,7 +29,7 @@
 
 
 
-<h2>HTML이란 무엇인가?</h2>
+<h2>JYP?</h2>
 <a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
 target="_blank" title="timl5 specification">Hypertext Markup Language (HTML)</a> is the standard Markup language for creating web pages and web applications.
 <STRONG> <u>M</u>YUNGI<u>L</u> </STRONG>
